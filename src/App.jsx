@@ -2,7 +2,7 @@ import "./App.css";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer">
       greeting app created by
       <a href="https://github.com/SweetCinnamonBun">SweetCinnamonBun</a>
     </div>
