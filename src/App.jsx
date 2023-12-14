@@ -1,5 +1,9 @@
 import "./App.css";
+import jani from "./images/jani.jpeg";
+import pekka from "./images/pekka.jpeg";
+import maya from "./images/maya.jpeg";
 
+console.log(jani);
 const Footer = () => {
   return (
     <div className="footer">
@@ -41,7 +45,7 @@ const App = () => {
   const persons = [
     {
       name: "Maya",
-      img: "src/images/maya.jpeg",
+      img: maya,
       age: 23,
       job: "Software developer",
       "work experience in years": 2,
@@ -51,7 +55,7 @@ const App = () => {
     },
     {
       name: "Pekka",
-      img: "src/images/pekka.jpeg",
+      img: pekka,
       age: 33,
       job: "Network Engineer",
       "work experience in years": 5,
@@ -61,7 +65,7 @@ const App = () => {
     },
     {
       name: "Jani",
-      img: "src/images/jani.jpeg",
+      img: jani,
       age: 44,
       job: "Cloud Engineer",
       "work experience in years": 10,
