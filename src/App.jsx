@@ -41,7 +41,7 @@ const App = () => {
   const persons = [
     {
       name: "Maya",
-      img: "http://localhost:5176/src/images/maya.jpeg",
+      img: "src/images/maya.jpeg",
       age: 23,
       job: "Software developer",
       "work experience in years": 2,
@@ -51,7 +51,7 @@ const App = () => {
     },
     {
       name: "Pekka",
-      img: "http://localhost:5176/src/images/pekka.jpeg",
+      img: "src/images/pekka.jpeg",
       age: 33,
       job: "Network Engineer",
       "work experience in years": 5,
@@ -61,7 +61,7 @@ const App = () => {
     },
     {
       name: "Jani",
-      img: "http://localhost:5176/src/images/jani.jpeg",
+      img: "src/images/jani.jpeg",
       age: 44,
       job: "Cloud Engineer",
       "work experience in years": 10,
